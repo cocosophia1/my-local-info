@@ -31,13 +31,21 @@ export default async function Home() {
     <div className="min-h-screen bg-slate-50 text-slate-800 font-sans">
       {/* 상단 헤더 */}
       <header className="bg-gradient-to-r from-blue-600 to-sky-500 text-white shadow-md">
-        <div className="max-w-6xl mx-auto px-4 py-8 text-center sm:text-left">
-          <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-            🏙️ 성남시 생활 정보
-          </h1>
-          <p className="mt-2 text-sky-100 text-sm sm:text-base font-medium">
-            우리 동네의 유용한 행사, 축제 소식과 놓치기 쉬운 지원금/혜택을 한눈에 확인해보세요!
-          </p>
+        <div className="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <div className="text-center sm:text-left">
+            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
+              🏙️ 성남시 생활 정보
+            </h1>
+            <p className="mt-2 text-sky-100 text-sm sm:text-base font-medium">
+              우리 동네의 유용한 행사, 축제 소식과 놓치기 쉬운 지원금/혜택을 한눈에 확인해보세요!
+            </p>
+          </div>
+          <a
+            href="/blog/"
+            className="bg-white/20 hover:bg-white/30 text-white font-bold py-2 px-4 rounded-xl border border-white/20 transition-all text-sm sm:text-base flex items-center gap-1"
+          >
+            ✍️ 동네 블로그 보러가기
+          </a>
         </div>
       </header>
 
@@ -93,7 +101,7 @@ export default async function Home() {
                 {/* 상세 보기 버튼 */}
                 <div className="px-6 pb-6 pt-2">
                   <a
-                    href={`/info/${event.id}/`}
+                    href="/blog/"
                     className="block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm py-2 px-4 rounded-xl transition-colors duration-200"
                   >
                     자세히 보기
@@ -154,7 +162,7 @@ export default async function Home() {
                 {/* 상세 보기 버튼 */}
                 <div className="px-6 pb-6 pt-2">
                   <a
-                    href={`/info/${benefit.id}/`}
+                    href="/blog/"
                     className="block text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm py-2 px-4 rounded-xl transition-colors duration-200"
                   >
                     자세히 보기
