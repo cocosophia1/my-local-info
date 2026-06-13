@@ -58,5 +58,15 @@
     "target": "국공립 및 사립유치원에 다니는 3~5세 유아 (일부 저소득층 추가 지원)",
     "summary": "유치원에 다니는 3~5세 아동에게 유아학비, 방과후과정비 등 지원",
     "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/000000465790"
+  },
+  {
+    "id": "105100000001",
+    "name": "근로·자녀장려금",
+    "category": "혜택",
+    "dateText": "2026-06-13 ~ 상시",
+    "location": "국세청",
+    "target": "소득과 재산이 적은 근로소득자, 사업소득자, 종교인 및 자녀가 있는 가구",
+    "summary": "소득과 재산이 적은 근로소득자에게 근로장려금을, 자녀가 있을 경우 자녀장려금 지급",
+    "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/105100000001"
   }
 ]
